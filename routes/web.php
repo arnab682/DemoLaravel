@@ -25,3 +25,4 @@ Route::get('/main','DemoController@main');
 Route::get('/home','DemoController@home');
 Route::get('/about','DemoController@about');
 Route::get('/dynamic','DemoController@dynamic');
+Route::get('/condition','DemoController@condition');

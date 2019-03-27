@@ -37,4 +37,8 @@ class Controller extends BaseController
     public function dynamic(){
     	return view('pages.dynamic');
     }
+    public function condition(){
+    	$name = "Jmidar Arnab";
+    	return view('pages.condition',compact('name'));
+    }
 }
