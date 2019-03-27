@@ -7,3 +7,10 @@
 @else
 	Str
 @endif
+<hr>
+@isset($name)
+@empty($name)
+true
+@endempty
+{{$name}}
+@endisset
