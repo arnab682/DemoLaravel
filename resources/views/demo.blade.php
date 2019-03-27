@@ -1,5 +1,5 @@
 <h1>LOL</h1>
-{{$hello}}
+{{$hello}}<hr>
 @foreach($user as $value)
 
 {{$value}} <br> 

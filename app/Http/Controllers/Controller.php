@@ -18,6 +18,10 @@ class Controller extends BaseController
     	$user = array('Jmi','Jmidar',' ');
     	$hello = 'no'; 
     	//return view('demo',array("lol"=>$user, "hi"=>$hello));
-    	return view('demo',compact("user","hello"));
+    	//return view('demo',compact("user","hello"));
+
+    	//return view('demo')->with(['user'=>$user,'hello'=>$hello]);
+    	return view('demo')->withuser($user)->withhello($hello);
+
     }
 }
