@@ -1,3 +1,3 @@
 Arnab 
-@extends('laout.main')
+@extends('layout.main')
 @extends ('pages.home')

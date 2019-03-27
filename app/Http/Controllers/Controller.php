@@ -26,7 +26,7 @@ class Controller extends BaseController
     }
 
     public function main(){
-    	return view('laout.main');
+    	return view('layout.main');
     }
     public function home(){
     	return view('pages.home');
