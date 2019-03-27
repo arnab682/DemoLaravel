@@ -21,3 +21,7 @@ Route::get('/lol', function () {
 
 //Contoller
 Route::get('/demo','DemoController@index');
+Route::get('/main','DemoController@main');
+Route::get('/home','DemoController@home');
+Route::get('/about','DemoController@about');
+Route::get('/dynamic','DemoController@dynamic');

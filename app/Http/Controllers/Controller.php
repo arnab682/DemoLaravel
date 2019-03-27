@@ -24,4 +24,17 @@ class Controller extends BaseController
     	return view('demo')->withuser($user)->withhello($hello);
 
     }
+
+    public function main(){
+    	return view('laout.main');
+    }
+    public function home(){
+    	return view('pages.home');
+    }
+    public function about(){
+    	return view('pages.about');
+    } 
+    public function dynamic(){
+    	return view('pages.dynamic');
+    }
 }
