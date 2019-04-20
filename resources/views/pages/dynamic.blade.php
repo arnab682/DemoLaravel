@@ -1,5 +1,5 @@
 @extends('welcome')
 @section('title','dynamic')
 @section('content')
-Laravel
+Jmidar
 @endsection
