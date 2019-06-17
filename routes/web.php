@@ -11,9 +11,10 @@
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
-});
+});*/
+
 Route::get('/lol', function () {
     return view('lol');
 });
@@ -34,3 +35,15 @@ Route::get('/about','DemoController@about');
 Route::get('/dynamic','DemoController@dynamic');
 
 
+Route::get('/useroop', function(){
+	return view('namespace.useroop');
+});
+
+
+
+
+
+
+Route::get('/', 'StaticController@showWelcome');
+Route::get('/home', 'StaticController@');
+Route::get('/user.list', 'StaticController@');
